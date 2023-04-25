@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: encryption-service
+  cloud:
+    nacos:
+      server-addr: 47.92.200.168:8848
+server:
+  port: 3005
+  servlet:
+    context-path: /api
